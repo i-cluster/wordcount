@@ -1,0 +1,8 @@
+이 텍스트는 총 {{totalwords}}개의 단어로 구성되어 있습니다.<br><br>
+
+원문 : {{total}}<br><br>
+
+단어 카운트<br>
+{% for word, num in dic %}
+{{word}} : {{num}}<br>
+{% endfor %}

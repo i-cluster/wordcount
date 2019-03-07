@@ -1,0 +1,9 @@
+<h1>멋쟁이 사자처럼 글자 세기!!</h1>
+
+<a href="{% url 'about' %}">About</a></br></br>
+
+아래에 글을 입력하세요.
+<form action="{% url 'result' %}">
+    <textarea name="fulltext" id="" cols="40" rows="10"></textarea><br>
+    <input type="submit" value="Count!"/>
+</form>
